@@ -1,0 +1,30 @@
+/*
+** plane.c for plane.c in /home/maxence.fourrier/Documents/Project_C/raytracer1/src
+** 
+** Made by maxence.fourrier
+** Login   <maxence.fourrier@epitech.eu>
+** 
+** Started on  Sun Aug  6 21:11:56 2017 maxence.fourrier
+** Last update Sun Aug  6 22:28:20 2017 maxence.fourrier
+*/
+
+#include "raytracer.h"
+
+float		intersect_plane(sfVector3f eye_pos, sfVector3f dir_vector)
+{
+  double	nb;
+
+  if (dir_vector.x == 0)
+    return (-1);
+  nb = pos.x / dir.x;
+  if (nb > EPSILON)
+    return (-1);
+  return (distance);
+}
+
+int main()
+{
+  sfVector3f	pos = {0, 0, 100};
+  sfVector3f	pos = {0, 0, 100};
+  
+}
