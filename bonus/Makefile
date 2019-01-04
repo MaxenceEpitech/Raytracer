@@ -49,7 +49,7 @@ OBJS		= 	$(SRCS:.c=.o)
 
 CFLAGS		+= 	-I./include ##-Wall -Werror -Wextra
 
-LDFLAGS		+=	-L./lib/my -lmy -lm -lc_graph_prog #-lcsfml-graphics -lcsfml-window -lcsfml-system -lcsfml-audio
+LDFLAGS		+=	-L./lib/my -lmy -lm -lcsfml-graphics -lcsfml-window -lcsfml-system -lcsfml-audio
 
 ifeq ($(DEBUG), yes)
 	CFLAGS	+=	-g3

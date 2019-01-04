@@ -1,4 +1,7 @@
-# raytracer
+# Raytracer
+
+###Demo :
+![](public/demo.gif)
 
 ### Utilisation:
 ```
