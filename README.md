@@ -1,6 +1,6 @@
 # Raytracer
 
-###Demo :
+### Demo :
 ![](public/demo.gif)
 
 ### Utilisation:
